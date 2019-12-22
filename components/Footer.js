@@ -7,9 +7,16 @@ const Footer = () => {
             <style jsx>{`
                 footer {
                     display: flex;
+                    justify-content: center;
+                    align-items: center;
                     width: 100vw;
-                    min-height: 4rem;
-                    background: red;
+                    min-height: 6rem;
+                    margin-top: 4rem;
+                    background: #fafafa;
+                }
+
+                a {
+                    color: #067df7;
                 }
             `}</style>
         </footer>

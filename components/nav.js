@@ -36,9 +36,8 @@ const Nav = () => (
             ul {
                 display: flex;
                 justify-content: space-between;
-            }
-            nav > ul {
-                padding: 4px 16px;
+                margin: 0;
+                padding: 1rem;
             }
             li {
                 display: flex;
