@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 const Home = () => (
     <div>
         <Head>
-            <title>Home</title>
+            <title>Hack for Future</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -17,14 +17,14 @@ const Home = () => (
         <div className="hero">
             <h1 className="title">Hack For Future</h1>
             <p className="description">
-                A community of hackers and creators, working together to raise
-                awareness about the climate crisis.
+                A creative community, working together to raise awareness about
+                the climate crisis and inspire action.
             </p>
 
             <div className="row">
                 <Link href="/">
                     <a className="card">
-                        <h3>Our Community &rarr;</h3>
+                        <h3>Our community &rarr;</h3>
                         <p>
                             Hack For Future is a international network working
                             on projects that combine climate, technology and
