@@ -6,15 +6,16 @@ import Layout from '../components/Layout'
 const Home = () => (
     <Layout>
         <div>
-            <h1 className="font-black text-4xl xs:text-5xl sm:text-6xl text-center text-white">
-                Hack for Future
-            </h1>
-            <p className="">
-                A creative community, working together to raise awareness about
-                the climate crisis and inspire action.
-            </p>
-
-            <p className="">Next hackathon will take place May 9th.</p>
+            <div className="text-center text-white">
+                <h1 className="font-black text-4xl xs:text-5xl sm:text-6xl">
+                    Hack for Future
+                </h1>
+                <p>
+                    A creative community, working together to raise awareness
+                    about the climate crisis and inspire action.
+                </p>
+                <p>Join our next climate hackathon on May 9th!</p>
+            </div>
 
             <div className="">
                 <Link href="/community">
