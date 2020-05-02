@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 const Layout = ({ title, children }) => {
     return (
-        <div className="bg-gradient-green-blue h-screen flex flex-col items-center">
+        <div className="flex flex-col items-center bg-gradient-fullpage min-w-screen min-h-screen">
             <Head>
                 <title>
                     {title ? title + ' | Hack for Future' : 'Hack for Future'}

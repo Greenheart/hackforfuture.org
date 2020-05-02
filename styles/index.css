@@ -7,9 +7,17 @@ html {
 }
 
 .bg-gradient-green-blue {
-    background: linear-gradient(
+    background-image: linear-gradient(
         25deg,
         theme('colors.green'),
         theme('colors.blue')
     );
+}
+
+.bg-gradient-fullpage {
+    @apply bg-gradient-green-blue;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
