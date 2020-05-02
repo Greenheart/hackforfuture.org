@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            <a href="mailto:samuel.plumppu@gmail.com">Contact</a>
+            <a href="mailto:hackforfuture@gmail.com">hackforfuture@gmail.com</a>
             <style jsx>{`
                 footer {
                     display: flex;
@@ -17,6 +17,11 @@ const Footer = () => {
 
                 a {
                     color: #067df7;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    text-decoration: underline;
                 }
             `}</style>
         </footer>
