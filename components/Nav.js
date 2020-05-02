@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 
 const links = [
-    { href: 'https://hackforfuture.org', label: 'Hack for Future' },
     { href: 'https://github.com/hackforfuture', label: 'GitHub' },
 ].map((link) => {
     link.key = `nav-link-${link.href}-${link.label}`
@@ -14,7 +13,11 @@ const Nav = () => (
         <ul>
             <li>
                 <Link href="/">
-                    <a>Home</a>
+                    <img
+                        src="images/hackforfuture-logo-banner.png"
+                        alt="Hack for Future logo"
+                        width="200"
+                    />
                 </Link>
             </li>
             {links.map(({ key, href, label }) => (
@@ -25,11 +28,6 @@ const Nav = () => (
         </ul>
 
         <style jsx>{`
-            :global(body) {
-                margin: 0;
-                font-family: -apple-system, BlinkMacSystemFont, Avenir Next,
-                    Avenir, Helvetica, sans-serif;
-            }
             nav {
                 text-align: center;
             }
@@ -44,7 +42,7 @@ const Nav = () => (
                 padding: 6px 8px;
             }
             a {
-                color: #067df7;
+                color: var(--blue);
                 text-decoration: none;
                 font-size: 13px;
             }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2720 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,10,10)">
+        <path d="M2700,64.868C2700,29.066 2670.93,0 2635.13,0L64.868,0C29.066,0 0,29.066 0,64.868L0,385.132C0,420.934 29.066,450 64.868,450L2635.13,450C2670.93,450 2700,420.934 2700,385.132L2700,64.868Z" style="fill:rgb(32,156,238);stroke:white;stroke-width:10px;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,90,148.4)">
+        <text x="34px" y="191px" style="font-family:'SourceSansPro-Black', 'Source Sans Pro', sans-serif;font-weight:900;font-size:300px;fill:white;">Hack f<tspan x="881.2px " y="191px ">o</tspan>r F<tspan x="1392.4px " y="191px ">u</tspan>tur<tspan x="1979.2px " y="191px ">e</tspan></text>
+    </g>
+    <g transform="matrix(1.15484,0,0,1.15484,2267.31,-132.332)">
+        <path d="M58,193.461L105.087,193.135C105.087,193.135 129.684,358.961 315,425.126L315,451.468C199.325,451.356 57.533,451.164 57.533,451.164L58,193.461ZM58,193.461L57.94,193.462L58,193.387L58,193.461Z" style="fill:white;stroke:white;stroke-width:3.46px;"/>
+    </g>
+</svg>

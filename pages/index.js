@@ -6,10 +6,11 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 
 const Home = () => (
-    <div>
+    <div className="container">
         <Head>
             <title>Hack for Future</title>
             <link rel="icon" href="/favicon.ico" />
+            <link rel="stylesheet" href="https://use.typekit.net/rpc5jvj.css" />
         </Head>
 
         <Nav />
@@ -21,8 +22,12 @@ const Home = () => (
                 the climate crisis and inspire action.
             </p>
 
+            <p className="description">
+                Next hackathon will take place May 9th.
+            </p>
+
             <div className="row">
-                <Link href="/">
+                <Link href="/our-community">
                     <a className="card">
                         <h3>Our community &rarr;</h3>
                         <p>
@@ -54,21 +59,59 @@ const Home = () => (
                     </a>
                 </Link>
             </div>
-
-            <Footer />
         </div>
 
+        <Footer />
+
+        <style jsx global>{`
+            :root {
+                --baby-powder: #fbfef9;
+                --eggshell: #f4f1de;
+                --rich-black: #000d0a;
+                --green: #61983b;
+                --red-orange: #f86624;
+                --blue: #009eea;
+            }
+
+            html {
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: source-sans-pro, sans-serif;
+                font-weight: 300;
+                font-style: normal;
+            }
+
+            body {
+                margin: 0;
+            }
+        `}</style>
+
         <style jsx>{`
+            .container {
+                background: white;
+                min-height: 100vh;
+            }
+
+            .text-light {
+                font-family: source-sans-pro, sans-serif;
+                font-weight: 300;
+            }
+
+            .text-bold {
+                font-family: source-sans-pro, sans-serif;
+                font-weight: 900;
+            }
+
             .hero {
                 width: 100%;
-                color: #333;
+                color: black;
             }
             .title {
                 margin: 0;
                 width: 100%;
                 padding-top: 80px;
                 line-height: 1.15;
-                font-size: 48px;
+                font-size: 3rem;
             }
             .title,
             .description {
@@ -86,22 +129,29 @@ const Home = () => (
                 width: 260px;
                 text-align: left;
                 text-decoration: none;
-                color: #434343;
-                border: 1px solid #9b9b9b;
+                color: black;
             }
             .card:hover {
-                border-color: #067df7;
+                background: linear-gradient(25deg, var(--green), var(--blue));
             }
+            .card:hover h3 {
+                color: white;
+            }
+
+            .card:hover p {
+                color: white;
+            }
+
             .card h3 {
                 margin: 0;
-                color: #067df7;
+                color: var(--blue);
                 font-size: 22px;
             }
             .card p {
                 margin: 0;
                 padding: 12px 0 0;
                 font-size: 16px;
-                color: #333;
+                color: black;
             }
         `}</style>
     </div>

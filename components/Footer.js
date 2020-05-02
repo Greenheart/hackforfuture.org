@@ -10,13 +10,16 @@ const Footer = () => {
                     justify-content: center;
                     align-items: center;
                     width: 100vw;
-                    min-height: 6rem;
+                    min-height: 4rem;
                     margin-top: 4rem;
-                    background: #fafafa;
+                    background: var(--rich-black);
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
                 }
 
                 a {
-                    color: #067df7;
+                    color: var(--blue);
                     text-decoration: none;
                 }
 
