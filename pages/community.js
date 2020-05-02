@@ -12,8 +12,6 @@ const Community = () => (
                 the climate crisis and inspire action.
             </p>
 
-            <p className="">Next hackathon will take place May 9th.</p>
-
             <Link href="/">
                 <a>Back to home</a>
             </Link>

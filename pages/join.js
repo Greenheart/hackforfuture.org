@@ -8,8 +8,6 @@ const Join = () => (
         <div className="">
             <h1 className="">Our hackathons</h1>
 
-            <p className="">Next hackathon will take place May 9th.</p>
-
             <Link href="/">
                 <a>Back to home</a>
             </Link>
