@@ -8,9 +8,10 @@ const links = [
     return link
 })
 
-const Nav = () => (
-    <nav>
-        <ul className="flex justify-between p-4">
+const Nav = ({ className = '' }) => (
+    <nav
+        className={`flex justify-between w-full items-center text-white ${className}`}>
+        <ul className="flex justify-between p-4 w-full">
             <li>
                 <Link href="/">
                     <a>
@@ -23,7 +24,7 @@ const Nav = () => (
                 </Link>
             </li>
             {links.map(({ key, href, label }) => (
-                <li key={key}>
+                <li key={key} className="flex items-center">
                     <a href={href}>{label}</a>
                 </li>
             ))}

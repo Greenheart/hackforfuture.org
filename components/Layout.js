@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 const Layout = ({ title, children }) => {
     return (
-        <div className="container bg-gradient-green-blue mx-auto">
+        <div className="bg-gradient-green-blue h-screen flex flex-col items-center">
             <Head>
                 <title>
                     {title ? title + ' | Hack for Future' : 'Hack for Future'}
@@ -17,11 +17,11 @@ const Layout = ({ title, children }) => {
                     href="https://use.typekit.net/rpc5jvj.css"
                 />
             </Head>
-            <Nav />
+            <Nav className="max-w-screen-xl" />
 
-            <main className="container px-4">{children}</main>
+            <main className="container px-4 my-10">{children}</main>
 
-            <Footer />
+            <Footer className="max-w-screen-xl" />
         </div>
     )
 }

@@ -5,8 +5,10 @@ import Layout from '../components/Layout'
 
 const Home = () => (
     <Layout>
-        <div className="font-light">
-            <h1 className="font-black text-6xl">Hack for Future</h1>
+        <div>
+            <h1 className="font-black text-4xl xs:text-5xl sm:text-6xl text-center text-white">
+                Hack for Future
+            </h1>
             <p className="">
                 A creative community, working together to raise awareness about
                 the climate crisis and inspire action.
