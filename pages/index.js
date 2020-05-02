@@ -15,7 +15,7 @@ const Home = () => (
         <Nav />
 
         <div className="hero">
-            <h1 className="title">Hack For Future</h1>
+            <h1 className="title">Hack for Future</h1>
             <p className="description">
                 A creative community, working together to raise awareness about
                 the climate crisis and inspire action.
@@ -26,7 +26,7 @@ const Home = () => (
                     <a className="card">
                         <h3>Our community &rarr;</h3>
                         <p>
-                            Hack For Future is a international network working
+                            Hack for Future is a international network working
                             on projects that combine climate, technology and
                             communication. We collaborate both on events and
                             online. Welcome to join us!
@@ -75,7 +75,7 @@ const Home = () => (
                 text-align: center;
             }
             .row {
-                max-width: 880px;
+                max-width: 1000px;
                 margin: 80px auto 40px;
                 display: flex;
                 flex-direction: row;
@@ -83,7 +83,7 @@ const Home = () => (
             }
             .card {
                 padding: 18px 18px 24px;
-                width: 220px;
+                width: 260px;
                 text-align: left;
                 text-decoration: none;
                 color: #434343;
@@ -95,12 +95,12 @@ const Home = () => (
             .card h3 {
                 margin: 0;
                 color: #067df7;
-                font-size: 18px;
+                font-size: 22px;
             }
             .card p {
                 margin: 0;
                 padding: 12px 0 0;
-                font-size: 13px;
+                font-size: 16px;
                 color: #333;
             }
         `}</style>
