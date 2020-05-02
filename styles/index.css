@@ -2,6 +2,14 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-body {
-    @apply bg-blue-500 p-12;
+html {
+    @apply font-body font-light;
+}
+
+.bg-gradient-green-blue {
+    background: linear-gradient(
+        25deg,
+        theme('colors.green'),
+        theme('colors.blue')
+    );
 }

@@ -26,27 +26,6 @@ const Nav = () => (
                 </li>
             ))}
         </ul>
-
-        <style jsx>{`
-            nav {
-                text-align: center;
-            }
-            ul {
-                display: flex;
-                justify-content: space-between;
-                margin: 0;
-                padding: 1rem;
-            }
-            li {
-                display: flex;
-                padding: 6px 8px;
-            }
-            a {
-                color: var(--blue);
-                text-decoration: none;
-                font-size: 13px;
-            }
-        `}</style>
     </nav>
 )
 
