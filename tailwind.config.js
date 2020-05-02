@@ -10,11 +10,9 @@ module.exports = {
                 'baby-powder': '#fbfef9',
                 'red-orange': '#f86624',
                 eggshell: '#f4f1de',
+                blue: '#009eea',
+                green: '#61983b',
             },
-        },
-        colors: {
-            blue: '#009eea',
-            green: '#61983b',
         },
     },
     variants: {},
