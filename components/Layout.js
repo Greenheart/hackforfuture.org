@@ -19,7 +19,7 @@ const Layout = ({ title, children }) => {
             </Head>
             <Nav />
 
-            {children}
+            <main className="container px-4">{children}</main>
 
             <Footer />
         </div>

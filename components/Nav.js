@@ -10,14 +10,16 @@ const links = [
 
 const Nav = () => (
     <nav>
-        <ul>
+        <ul className="flex justify-between p-4">
             <li>
                 <Link href="/">
-                    <img
-                        src="images/hackforfuture-logo-banner.png"
-                        alt="Hack for Future logo"
-                        width="200"
-                    />
+                    <a>
+                        <img
+                            src="images/hackforfuture-logo-banner.png"
+                            alt="Hack for Future logo"
+                            width="200"
+                        />
+                    </a>
                 </Link>
             </li>
             {links.map(({ key, href, label }) => (
