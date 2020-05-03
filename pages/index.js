@@ -15,6 +15,11 @@ const Home = () => (
         />
 
         <section className="max-w-screen-md mx-auto my-6">
+            <img
+                src="/images/undraw_real_time_collaboration_c62i.svg"
+                alt="Online collaboration illustration"
+                className="w-48 sm:w-56 mx-auto"
+            />
             <div className="grid grid-cols-1 gap-4">
                 <h2 className="font-black text-4xl">Why?</h2>
                 <p>
@@ -42,14 +47,9 @@ const Home = () => (
                     Join us!
                 </p>
             </div>
-            <img
-                src="/images/undraw_real_time_collaboration_c62i.svg"
-                alt="Online collaboration illustration"
-                className="max-w-sm w-full mx-auto mt-8"
-            />
         </section>
 
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 my-20 text-black">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 text-black">
             <Card
                 title="Our community"
                 href="/community"
