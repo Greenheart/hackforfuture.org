@@ -69,7 +69,7 @@ const Layout = ({ title, children }) => {
 
             <main className="container px-4 mt-10">{children}</main>
 
-            <Footer className="max-w-screen-xl md:mt-40 text-black" />
+            <Footer className="max-w-screen-xl my-24 text-black" />
         </div>
     )
 }
