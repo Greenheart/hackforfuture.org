@@ -1,0 +1,45 @@
+{
+    "name": "Hack for Future",
+    "short_name": "Hack for Future",
+    "start_url": "/",
+    "background_color": "#fff",
+    "theme_color": "#009eea",
+    "icons": [
+        {
+            "src": "images/hackforfuture-bend-the-curve-32x32.png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "images/hackforfuture-bend-the-curve-48x48.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "images/hackforfuture-bend-the-curve-72x72.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "images/hackforfuture-bend-the-curve-96x96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/hackforfuture-bend-the-curve-144x144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "images/hackforfuture-bend-the-curve-192x192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/hackforfuture-bend-the-curve.png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "images/hackforfuture-bend-the-curve.png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "images/hackforfuture-bend-the-curve.png",
+            "sizes": "512x512"
+        }
+    ]
+}
