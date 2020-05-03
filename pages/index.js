@@ -14,7 +14,37 @@ const Home = () => (
             ]}
         />
 
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 mb-20">
+        <section className="text-white max-w-screen-md mx-auto my-6">
+            <div className="grid grid-cols-1 gap-4">
+                <h2 className="font-black text-4xl">Why?</h2>
+                <p>
+                    Most people have heard about the climate crisis, and how we
+                    rapidly need to bend the curve of global CO<sub>2</sub>
+                    e-emissions downwards. Still, few people take action.
+                </p>
+
+                <p className="font-normal">We want to change that.</p>
+
+                <h2 className="font-black text-4xl">How?</h2>
+                <p>
+                    As members of Hack for Future, we believe we can achieve
+                    this by improving our climate communication. But raising
+                    awareness is not enough. Good climate communication inspires
+                    people by starting with
+                    <span className="font-normal italic"> why </span>
+                    they should take action, before exploring
+                    <span className="font-normal italic"> how</span>.
+                </p>
+
+                <p className="font-normal">
+                    That's why we are connecting creative people from all around
+                    the world so we can solve this and #HackforFuture, together.
+                    Join us!
+                </p>
+            </div>
+        </section>
+
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 my-20">
             <Card
                 title="Our community"
                 href="/community"
