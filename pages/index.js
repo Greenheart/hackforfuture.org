@@ -15,8 +15,8 @@ const Card = ({ title = '', href = '', text = '' }) => (
 const Home = () => (
     <Layout>
         <div>
-            <div className="text-center text-white leading-relaxed">
-                <h1 className="font-black text-4xl xs:text-5xl sm:text-6xl">
+            <div className="text-center text-white text-lg sm:text-xl leading-relaxed">
+                <h1 className="font-black text-5xl sm:text-6xl">
                     Hack for Future
                 </h1>
                 <p>
