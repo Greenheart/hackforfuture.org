@@ -14,7 +14,7 @@ const Home = () => (
             ]}
         />
 
-        <section className="text-white max-w-screen-md mx-auto my-6">
+        <section className="max-w-screen-md mx-auto my-6">
             <div className="grid grid-cols-1 gap-4">
                 <h2 className="font-black text-4xl">Why?</h2>
                 <p>
@@ -49,7 +49,7 @@ const Home = () => (
             />
         </section>
 
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 my-20">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 my-20 text-black">
             <Card
                 title="Our community"
                 href="/community"
