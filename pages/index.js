@@ -5,8 +5,8 @@ import Layout from '../components/Layout'
 
 const Card = ({ title = '', href = '', text = '' }) => (
     <Link href={href}>
-        <a className="bg-white rounded-lg p-4">
-            <h3>{title} &rarr;</h3>
+        <a className="card bg-white rounded-lg p-5 shadow-lg">
+            <h2 className="font-black text-blue">{title} &rarr;</h2>
             <p>{text}</p>
         </a>
     </Link>
@@ -28,9 +28,9 @@ const Home = () => (
 
             <div className="grid grid-cols-3 gap-8 mt-20 mb-20">
                 <Card
-                    title="Community"
+                    title="Our community"
                     href="/community"
-                    text="Hack for Future is a international network working on projects that combine climate, technology and communication. We collaborate both on events and online. Welcome to join us!"
+                    text="Hack for Future is an international network working on projects that combine climate, technology and communication. We collaborate both on physical events and online. Welcome to join us!"
                 />
                 <Card
                     title="Climate hackathons"

@@ -1,6 +1,5 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
 
 html {
     @apply font-body font-light;
@@ -14,6 +13,14 @@ html {
     );
 }
 
+.bg-gradient-blue-white {
+    background-image: linear-gradient(
+        25deg,
+        theme('colors.blue'),
+        theme('colors.white')
+    );
+}
+
 .bg-gradient-fullpage {
     @apply bg-gradient-green-blue;
     background-size: cover;
@@ -21,3 +28,13 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.card:hover {
+    @apply bg-gradient-blue-white;
+}
+
+.card:hover h2 {
+    color: theme('colors.black');
+}
+
+@import 'tailwindcss/utilities';
