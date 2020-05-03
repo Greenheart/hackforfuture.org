@@ -26,7 +26,7 @@ const Home = () => (
                 <p>Join our next climate hackathon on May 9th!</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-8 mt-20 mb-20">
+            <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 mb-20">
                 <Card
                     title="Our community"
                     href="/community"
