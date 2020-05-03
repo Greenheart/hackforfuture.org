@@ -67,9 +67,9 @@ const Layout = ({ title, children }) => {
 
             <Nav className="max-w-screen-xl" />
 
-            <main className="container px-4 my-10">{children}</main>
+            <main className="container px-4 mt-10">{children}</main>
 
-            <Footer className="max-w-screen-xl" />
+            <Footer className="max-w-screen-xl md:mt-40" />
         </div>
     )
 }
