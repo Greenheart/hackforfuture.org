@@ -42,6 +42,11 @@ const Home = () => (
                     Join us!
                 </p>
             </div>
+            <img
+                src="/images/undraw_real_time_collaboration_c62i.svg"
+                alt="Online collaboration illustration"
+                className="max-w-sm w-full mx-auto mt-8"
+            />
         </section>
 
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 my-20">
