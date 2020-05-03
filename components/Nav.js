@@ -16,7 +16,7 @@ const Nav = ({ className = '' }) => (
                 <Link href="/">
                     <a>
                         <img
-                            src="images/hackforfuture-logo-banner.png"
+                            src="images/hackforfuture-logo-white-1350x225.png"
                             alt="Hack for Future logo"
                             width="200"
                         />
