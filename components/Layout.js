@@ -11,12 +11,60 @@ const Layout = ({ title, children }) => {
                 <title>
                     {title ? title + ' | Hack for Future' : 'Hack for Future'}
                 </title>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon-32x32.png" />
                 <link
                     rel="stylesheet"
                     href="https://use.typekit.net/rpc5jvj.css"
                 />
+                <link rel="manifest" href="/manifest.webmanifest" />
+                <meta name="theme-color" content="#009eea" />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="32x32"
+                    src="images/hackforfuture-bend-the-curve-32x32.png"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="48x48"
+                    src="images/hackforfuture-bend-the-curve-48x48.png"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="72x72"
+                    src="images/hackforfuture-bend-the-curve-72x72.png"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="96x96"
+                    src="images/hackforfuture-bend-the-curve-96x96.png"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="144x144"
+                    src="images/hackforfuture-bend-the-curve-144x144.png"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="192x192"
+                    src="images/hackforfuture-bend-the-curve-192x192.png"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="256x256"
+                    src="images/hackforfuture-bend-the-curve.png"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="384x384"
+                    src="images/hackforfuture-bend-the-curve.png"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="512x512"
+                    src="images/hackforfuture-bend-the-curve.png"
+                />
             </Head>
+
             <Nav className="max-w-screen-xl" />
 
             <main className="container px-4 my-10">{children}</main>
