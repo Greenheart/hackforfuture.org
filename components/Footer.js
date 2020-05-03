@@ -1,29 +1,16 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({ className = '' }) => {
     return (
-        <footer>
-            <a href="mailto:hackforfuture@gmail.com">hackforfuture@gmail.com</a>
-            <style jsx>{`
-                footer {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 100vw;
-                    min-height: 6rem;
-                    margin-top: 4rem;
-                    background: #fafafa;
-                }
-
-                a {
-                    color: #067df7;
-                    text-decoration: none;
-                }
-
-                a:hover {
-                    text-decoration: underline;
-                }
-            `}</style>
+        <footer className={`flex justify-center p-4 ${className}`}>
+            <div className="flex flex-wrap justify-evenly w-screen">
+                <span className="px-8">
+                    &copy; {new Date().getFullYear()} Hack for Future
+                </span>
+                <a href="mailto:hackforfuture@gmail.com" className="px-8">
+                    hackforfuture@gmail.com
+                </a>
+            </div>
         </footer>
     )
 }
