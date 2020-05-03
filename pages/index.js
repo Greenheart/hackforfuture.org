@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 import Layout from '../components/Layout'
+import PageIntro from '../components/PageIntro'
 
 const Card = ({ title = '', href = '', text = '' }) => (
     <Link href={href}>
@@ -15,16 +16,13 @@ const Card = ({ title = '', href = '', text = '' }) => (
 const Home = () => (
     <Layout>
         <div>
-            <div className="text-center text-white text-lg sm:text-xl leading-relaxed">
-                <h1 className="font-black text-5xl sm:text-6xl">
-                    Hack for Future
-                </h1>
-                <p>
-                    A creative community, working together to raise awareness
-                    about the climate crisis and inspire action.
-                </p>
-                <p>Join our next climate hackathon on May 9th!</p>
-            </div>
+            <PageIntro
+                title="Hack for Future"
+                text={[
+                    'A creative community, working together to raise awareness about the climate crisis and inspire action.',
+                    'Join our next climate hackathon on May 9th!',
+                ]}
+            />
 
             <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 mb-20">
                 <Card
