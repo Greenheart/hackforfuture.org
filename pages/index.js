@@ -49,8 +49,15 @@ const Home = () => (
             </div>
         </section>
 
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 text-black">
+        {/* <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 text-black"> */}
+        <div className="flex justify-center w-full mt-20 text-black">
             <Card
+                title="Register for Climate Hackathon #3"
+                href="https://forms.gle/qY53ismxhp7zXR4d7"
+                text="This will be a crazy experience!"
+            />
+
+            {/* <Card
                 title="Our community"
                 href="/community"
                 text="Hack for Future is an international network working on projects that combine climate, technology and communication. We collaborate both on physical events and online. Welcome to join us!"
@@ -64,7 +71,7 @@ const Home = () => (
                 title="Welcome to join us!"
                 href="/join"
                 text="Want to bring the hackathon spirit to your local area? Read more about how we'll help you get started organizing your own event."
-            />
+            /> */}
         </div>
     </Layout>
 )
