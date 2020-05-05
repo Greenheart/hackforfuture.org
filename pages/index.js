@@ -50,12 +50,35 @@ const Home = () => (
         </section>
 
         {/* <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 text-black"> */}
-        <div className="flex justify-center w-full mt-20 text-black">
-            <Card
-                title="Register for Climate Hackathon #3"
+        <div className="flex justify-center mt-20 text-black">
+            <a
                 href="https://forms.gle/qY53ismxhp7zXR4d7"
-                text="This will be a crazy experience!"
-            />
+                className="card bg-white rounded-lg p-5 shadow-lg w-full max-w-2xl">
+                <h2 className="font-black text-blue">
+                    Register for Climate Hackathon #3 &rarr;
+                </h2>
+
+                <div className="flex flex-col">
+                    <div className="flex">
+                        <span className="font-normal mr-2">When?</span>
+                        <span>
+                            Saturday, May 9th at 14:45-18:30 CEST (UTC+2)
+                        </span>
+                    </div>
+                    <div className="flex">
+                        <span className="font-normal mr-2">Where?</span>
+                        <span>Zoom + Discord</span>
+                    </div>
+                    <div className="flex">
+                        <span className="font-normal mr-2">Who?</span>
+                        <span>
+                            Anyone interested in climate, communication, design
+                            or technology
+                        </span>
+                    </div>
+                </div>
+                <p className="mt-4">Welcome! See you soon 🌍✨</p>
+            </a>
 
             {/* <Card
                 title="Our community"
