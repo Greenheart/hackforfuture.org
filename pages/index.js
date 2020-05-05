@@ -54,8 +54,9 @@ const Home = () => (
             <a
                 href="https://forms.gle/qY53ismxhp7zXR4d7"
                 className="card bg-white rounded-lg p-5 shadow-lg w-full max-w-2xl">
-                <h2 className="font-black text-blue">
-                    Register for Climate Hackathon #3 &rarr;
+                <h2 className="font-black text-blue flex justify-start">
+                    <span className="mr-2">📅</span>
+                    <span>Register for Climate Hackathon #3 &rarr;</span>
                 </h2>
 
                 <div className="flex flex-col">
