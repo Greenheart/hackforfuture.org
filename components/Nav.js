@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 
-const links = [
-    { href: 'https://github.com/hackforfuture', label: 'GitHub' },
-].map((link) => {
-    link.key = `nav-link-${link.href}-${link.label}`
-    return link
-})
+const links = [{ href: 'https://discord.gg/9MFrxB8', label: 'Discord' }].map(
+    (link) => {
+        link.key = `nav-link-${link.href}-${link.label}`
+        return link
+    }
+)
 
 const Nav = ({ className = '' }) => (
     <nav
