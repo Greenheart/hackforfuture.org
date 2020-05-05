@@ -25,11 +25,11 @@ const Layout = ({ title, children }) => {
                 <meta property="og:url" content="https://hackforfuture.org" />
                 <meta
                     property="og:image"
-                    content="http://hackforfuture.org/images/hackforfuture-logo-1350x225.png"
+                    content="http://hackforfuture.org/images/hackforfuture-square-logo.png"
                 />
                 <meta
                     property="og:image:secure_url"
-                    content="https://hackforfuture.org/images/hackforfuture-logo-1350x225.png"
+                    content="https://hackforfuture.org/images/hackforfuture-square-logo.png"
                 />
                 <meta property="og:image:type" content="image/png" />
                 <meta property="og:image:width" content="1350" />
