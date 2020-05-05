@@ -16,6 +16,26 @@ const Layout = ({ title, children }) => {
                     rel="stylesheet"
                     href="https://use.typekit.net/rpc5jvj.css"
                 />
+                <meta property="og:title" content="Hack for Future" />
+                <meta
+                    property="og:description"
+                    content="A creative community, working together to raise awareness about the climate crisis and inspire action. Join our next climate hackathon on May 9th!"
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://hackforfuture.org" />
+                <meta
+                    property="og:image"
+                    content="http://hackforfuture.org/images/hackforfuture-logo-1350x225.png"
+                />
+                <meta
+                    property="og:image:secure_url"
+                    content="https://hackforfuture.org/images/hackforfuture-logo-1350x225.png"
+                />
+                <meta property="og:image:type" content="image/png" />
+                <meta property="og:image:width" content="1350" />
+                <meta property="og:image:height" content="225" />
+                <meta property="og:image:alt" content="Hack for Future logo" />
+
                 <link rel="manifest" href="/manifest.webmanifest" />
                 <meta name="theme-color" content="#009eea" />
                 <link
