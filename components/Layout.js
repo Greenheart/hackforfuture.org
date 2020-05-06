@@ -16,19 +16,21 @@ const Layout = ({ title, children }) => {
                     rel="stylesheet"
                     href="https://use.typekit.net/rpc5jvj.css"
                 />
-                <meta property="og:title" content="Hack for Future" />
                 <meta
+                    name="title"
+                    property="og:title"
+                    content="Hack for Future"
+                />
+                <meta
+                    name="description"
                     property="og:description"
                     content="A creative community, working together to raise awareness about the climate crisis and inspire action. Join our next climate hackathon on May 9th!"
                 />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://hackforfuture.org" />
                 <meta
+                    name="image"
                     property="og:image"
-                    content="http://hackforfuture.org/images/hackforfuture-square-logo.png"
-                />
-                <meta
-                    property="og:image:secure_url"
                     content="https://hackforfuture.org/images/hackforfuture-square-logo.png"
                 />
                 <meta property="og:image:type" content="image/png" />
