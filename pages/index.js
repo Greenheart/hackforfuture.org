@@ -10,7 +10,7 @@ const Home = () => (
             title="Hack for Future"
             text={[
                 'A creative community, working together to raise awareness about the climate crisis and inspire action.',
-                'Join our next climate hackathon on May 9th!',
+                'Join our next climate hackathon on June 13th!',
             ]}
         />
 
@@ -51,24 +51,20 @@ const Home = () => (
 
         {/* <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 text-black"> */}
         <div className="flex justify-center mt-20 text-black">
-            <a
-                href="https://forms.gle/qY53ismxhp7zXR4d7"
-                className="card bg-white rounded-lg p-5 shadow-lg w-full max-w-2xl">
+            <a className="card bg-white rounded-lg p-5 shadow-lg w-full max-w-2xl">
                 <h2 className="font-black text-blue flex justify-start">
                     <span className="mr-2">📅</span>
-                    <span>Register for Climate Hackathon #3 &rarr;</span>
+                    <span>Coming soon: Climate Hackathon #4 &rarr;</span>
                 </h2>
 
                 <div className="flex flex-col">
                     <div className="flex">
                         <span className="font-normal mr-2">When?</span>
-                        <span>
-                            Saturday, May 9th at 14:45-18:30 CEST (UTC+2)
-                        </span>
+                        <span>Saturday, June 13th (Time to be announced)</span>
                     </div>
                     <div className="flex">
                         <span className="font-normal mr-2">Where?</span>
-                        <span>Zoom + Discord</span>
+                        <span>Discord</span>
                     </div>
                     <div className="flex">
                         <span className="font-normal mr-2">Who?</span>
@@ -78,7 +74,10 @@ const Home = () => (
                         </span>
                     </div>
                 </div>
-                <p className="mt-4">Welcome! See you soon 🌍✨</p>
+                <p className="mt-4 font-normal italic">
+                    More details to be announced shortly!{' '}
+                    <span className="not-italic">🌍✨</span>
+                </p>
             </a>
 
             {/* <Card
