@@ -54,13 +54,17 @@ const Home = () => (
             <a className="card bg-white rounded-lg p-5 shadow-lg w-full max-w-2xl">
                 <h2 className="font-black text-blue flex justify-start">
                     <span className="mr-2">📅</span>
-                    <span>Coming soon: Climate Hackathon #4 &rarr;</span>
+                    <span>
+                        Register for Hack for Future Climate Hackathon #4 &rarr;
+                    </span>
                 </h2>
 
                 <div className="flex flex-col">
                     <div className="flex">
                         <span className="font-normal mr-2">When?</span>
-                        <span>Saturday, June 13th (Time to be announced)</span>
+                        <span>
+                            Saturday, June 13th at 15:00-18:00 CEST (UTC+2)
+                        </span>
                     </div>
                     <div className="flex">
                         <span className="font-normal mr-2">Where?</span>
@@ -69,15 +73,12 @@ const Home = () => (
                     <div className="flex">
                         <span className="font-normal mr-2">Who?</span>
                         <span>
-                            Anyone interested in climate, communication, design
-                            or technology
+                            Anyone interested in learning more about climate,
+                            communication, design or technology
                         </span>
                     </div>
                 </div>
-                <p className="mt-4 font-normal italic">
-                    More details to be announced shortly!{' '}
-                    <span className="not-italic">🌍✨</span>
-                </p>
+                <p className="mt-4 font-normal">See you soon! 🌍✨</p>
             </a>
 
             {/* <Card
@@ -96,6 +97,27 @@ const Home = () => (
                 text="Want to bring the hackathon spirit to your local area? Read more about how we'll help you get started organizing your own event."
             /> */}
         </div>
+
+        <div className="text-black text-center m-8">◅ ◈ ▻</div>
+        <section className="max-w-screen-md mx-auto my-6">
+            <div className="grid grid-cols-1 gap-4">
+                <h2 className="font-black text-4xl">Our climate hackathons</h2>
+                <p>
+                    We regularly organize creative meeting places to collaborate
+                    with engaged people from all around the world. Find
+                    interesting ongoing projects you can contribute to - or
+                    bring your own and get support and inspiration from our
+                    community.
+                </p>
+
+                <p>
+                    You don't need any previous knowledge to participate. Just
+                    come as you are and bring your curiosity!
+                </p>
+
+                <p className="font-normal">Let's #HackforFuture. Welcome!</p>
+            </div>
+        </section>
     </Layout>
 )
 
