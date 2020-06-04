@@ -106,8 +106,8 @@ const Home = () => (
                     We regularly organize creative meeting places to collaborate
                     with engaged people from all around the world. Find
                     interesting ongoing projects you can contribute to - or
-                    bring your own and get support and inspiration from our
-                    community.
+                    bring your own project and get support and inspiration from
+                    our community.
                 </p>
 
                 <p>
