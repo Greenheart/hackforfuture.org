@@ -24,7 +24,7 @@ const Layout = ({ title, children }) => {
                 <meta
                     name="description"
                     property="og:description"
-                    content="A creative community, working together to raise awareness about the climate crisis and inspire action. Join our next climate hackathon on May 9th!"
+                    content="A creative community, working together to raise awareness about the climate crisis and inspire action. Join our next climate hackathon on June 13th!"
                 />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://hackforfuture.org" />
