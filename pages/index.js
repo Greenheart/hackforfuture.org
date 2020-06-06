@@ -51,7 +51,10 @@ const Home = () => (
 
         {/* <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-8 mt-20 text-black"> */}
         <div className="flex justify-center mt-20 text-black">
-            <a className="card bg-white rounded-lg p-5 shadow-lg w-full max-w-2xl">
+            <a
+                href="https://forms.gle/ERXuhZhhDcRLoXgm7"
+                target="_blank"
+                className="card bg-white rounded-lg p-5 shadow-lg w-full max-w-2xl">
                 <h2 className="font-black text-blue flex justify-start">
                     <span className="mr-2">📅</span>
                     <span>
