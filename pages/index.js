@@ -66,7 +66,7 @@ const Home = () => (
                     <div className="flex">
                         <span className="font-normal mr-2">When?</span>
                         <span>
-                            Saturday, June 13th at 15:00-18:00 CEST (UTC+2)
+                            Saturday, June 13th at 14:45-18:30 CEST (UTC+2)
                         </span>
                     </div>
                     <div className="flex">
@@ -102,6 +102,7 @@ const Home = () => (
         </div>
 
         <div className="text-black text-center m-8">◅ ◈ ▻</div>
+
         <section className="max-w-screen-md mx-auto my-6">
             <div className="grid grid-cols-1 gap-4">
                 <h2 className="font-black text-4xl">Our climate hackathons</h2>
