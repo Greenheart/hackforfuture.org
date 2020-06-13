@@ -19,7 +19,7 @@ const Project = ({ title = '', href = '', text = '', emoji = '' }) => (
 )
 
 const ProjectCard = ({ title = '', href = '', text = '', emoji = '' }) => (
-    <div className="flex justify-center mt-6 mb-6 text-black">
+    <div className="flex justify-center my-2 text-black">
         {href.startsWith('http') ? (
             <Project title={title} href={href} text={text} emoji={emoji} />
         ) : (

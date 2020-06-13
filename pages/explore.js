@@ -12,6 +12,13 @@ const projects = [
         text:
             'In this gamified framework for exploring scenarios for a sustainable future, you are the president of a nation, swiping left (no) or right (yes) to decide what kind of future you want. But of course, you also have to face the consequences, giving insights into the important conversations around sustainability and the future in the real world.',
     },
+    {
+        title: 'NMF.earth',
+        href: 'https://nmf.earth',
+        emoji: '🌍📱',
+        text:
+            ' Fight climate breakdown and biodiversity loss. Calculate and mitigate your CO2 emissions. Reduce your waste, transition to a sustainable life.',
+    },
 ]
 
 const linkCategories = [
