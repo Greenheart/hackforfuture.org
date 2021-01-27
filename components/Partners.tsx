@@ -60,11 +60,6 @@ const Partners: FC<PartnersProps> = (props) => {
                     </Link>
                 ))}
             </Grid>
-            <Text textAlign="center">
-                <Link href={`mailto:${email}?subject=Partner`} variant="yellow">
-                    Let's co-create a sustainable future!
-                </Link>
-            </Text>
         </Box>
     ) : null
 }
