@@ -124,11 +124,10 @@ const Index = () => {
                         }
                     />
 
-                    <Card mx="auto" textAlign="center">
+                    <Card textAlign="center" mx={[0, 6, 'auto']} maxW="md">
                         <Heading
                             as="h2"
                             fontSize={[20, null, 24]}
-                            mb="2"
                             textAlign="center"
                         >
                             Let's co-create a sustainable future!
