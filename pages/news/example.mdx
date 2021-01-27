@@ -1,0 +1,32 @@
+import Layout from '../../layouts/Layout'
+import Content from '../../layouts/Content'
+
+<!--
+    NOTE: To publish a post, make a copy of this file and save it in the same folder.
+    The filename will be determine the post url:
+        - `example.mdx` will for example be published under `/news/example`
+        - `your-post.mdx` will be published under `/news/your-post`
+        - and so on
+-->
+
+export const meta = {
+    title: 'News post title',
+    description:
+        'Description for this post. Short intro that will show in social media and search engines when sharing the link.',
+    // See `defaultMeta` defined in Layout.tsx for details on how to add a custom social sharing image for this post.
+}
+
+<!--
+    NOTE: Only `.mdx` posts with a default export will be published.
+    NOTE: To save a post as a draft without publishing it, it's possible to comment out the file
+-->
+
+<!-- export default ({ children }) => (
+    <Layout meta={meta}>
+        <Content maxW="5xl">{children}</Content>
+    </Layout>
+) -->
+
+# example
+
+This is a post

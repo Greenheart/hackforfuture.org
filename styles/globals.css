@@ -1,0 +1,68 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+    /* See all colors in `theme.ts` */
+    --green: #61983b;
+    --blue: #009eea;
+}
+
+/* Credit: https://aykevl.nl/2014/09/fix-jumping-scrollbar */
+@media screen and (min-width: 960px) {
+    html {
+        padding-left: calc(100vw - 100%);
+        padding-right: 0;
+    }
+}
+
+.bg-gradient-fullpage {
+    background: transparent;
+    background-image: linear-gradient(25deg, var(--green), var(--blue));
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* TODO: maybe we don't need more font weights than 900 */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+        url('/fonts/source-sans-pro-v14-latin-900.woff2') format('woff2'),
+        url('/fonts/source-sans-pro-v14-latin-900.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('/fonts/source-sans-pro-v14-latin-regular.woff2') format('woff2'),
+        url('/fonts/source-sans-pro-v14-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+        url('/fonts/source-sans-pro-v14-latin-300.woff2') format('woff2'),
+        url('/fonts/source-sans-pro-v14-latin-300.woff') format('woff');
+}
+
+/*
+    This will hide the focus indicator if the element receives focus    via the mouse,
+    but it will still show up on keyboard focus.
+  */
+.js-focus-visible :focus:not([data-focus-visible-added]) {
+    outline: none;
+    box-shadow: none;
+}
