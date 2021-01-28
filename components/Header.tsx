@@ -2,7 +2,6 @@ import { Flex, Link, Container } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import Image from 'next/image'
 
-import { theme } from '../shared/theme'
 import { email, siteName } from '../shared/constants'
 
 interface NavLinkProps {

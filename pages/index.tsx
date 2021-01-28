@@ -1,12 +1,4 @@
-import {
-    Box,
-    Center,
-    Heading,
-    ListItem,
-    Text,
-    Link,
-    UnorderedList,
-} from '@chakra-ui/react'
+import { Box, Center, Heading, Text, Link } from '@chakra-ui/react'
 
 import Card from '../components/Card'
 import IntroSection from '../components/IntroSection'

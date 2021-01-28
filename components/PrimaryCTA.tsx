@@ -2,8 +2,10 @@ import { FC } from 'react'
 import NextLink from 'next/link'
 import { Button, ButtonProps } from '@chakra-ui/react'
 
+import { communityInvite } from '../shared/constants'
+
 const PrimaryCTA: FC<ButtonProps> = ({ ...props }) => (
-    <NextLink href={'/'} passHref>
+    <NextLink href={communityInvite} passHref>
         <Button
             mt="8"
             as="a"
@@ -14,7 +16,7 @@ const PrimaryCTA: FC<ButtonProps> = ({ ...props }) => (
             w={['100%', 'unset']}
             {...props}
         >
-            Apply to join
+            Join us!
         </Button>
     </NextLink>
 )

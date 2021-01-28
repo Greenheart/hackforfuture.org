@@ -1,9 +1,6 @@
 import { FC } from 'react'
-import { Text, Link, Heading, Grid, Box, BoxProps } from '@chakra-ui/react'
+import { Link, Heading, Grid, Box, BoxProps } from '@chakra-ui/react'
 import Image from 'next/image'
-import NextLink from 'next/link'
-
-import { email, siteName } from '../shared/constants'
 
 interface Partner {
     name: string
