@@ -49,7 +49,7 @@ const IntroSection: FC<IntroSectionProps> = ({
             />
         </Box>
         <Card
-            mx={[0, 6, 0]}
+            mx={[0, 4, 0]}
             display="grid"
             gridTemplateColumns="1fr"
             gridTemplateRows="min-content min-content"
@@ -57,13 +57,13 @@ const IntroSection: FC<IntroSectionProps> = ({
         >
             <Heading
                 as="h2"
-                fontSize={[20, null, 24]}
-                mb="2"
+                fontSize={['md', 'lg', 'null', 'xl', '2xl']}
+                mb={[2, 2]}
                 textAlign="center"
             >
                 {heading}
             </Heading>
-            <Box fontSize={[18, null, 20]} textAlign={textAlign}>
+            <Box fontSize={['md', null, null, 'lg']} textAlign={textAlign}>
                 {content}
             </Box>
         </Card>
