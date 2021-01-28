@@ -2,7 +2,7 @@ import { FC } from 'react'
 import NextLink from 'next/link'
 import { Flex, FlexProps, Link } from '@chakra-ui/react'
 
-import { siteName } from '../shared/constants'
+import { email, siteName } from '../shared/constants'
 
 const Footer: FC<FlexProps> = (props) => (
     <Flex
@@ -14,11 +14,18 @@ const Footer: FC<FlexProps> = (props) => (
         {...props}
     >
         &copy; {new Date().getFullYear()} {siteName}
-        <NextLink href="/about" passHref>
-            <Link variant="yellow" mt="4">
-                About
-            </Link>
-        </NextLink>
+        <Flex>
+            <NextLink href="/about" passHref>
+                <Link variant="yellow" py="4" px="3">
+                    About
+                </Link>
+            </NextLink>
+            <NextLink href={`mailto:${email}`} passHref>
+                <Link variant="yellow" py="4" px="3">
+                    Contact
+                </Link>
+            </NextLink>
+        </Flex>
     </Flex>
 )
 
