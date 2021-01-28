@@ -49,7 +49,9 @@ const IntroSection: FC<IntroSectionProps> = ({
             />
         </Box>
         <Card
-            mx={[0, 4, 0]}
+            // mx={[0, 4, 0]}
+            mx="auto"
+            maxW={['sm', 'md', 'lg']}
             display="grid"
             gridTemplateColumns="1fr"
             gridTemplateRows="min-content min-content"

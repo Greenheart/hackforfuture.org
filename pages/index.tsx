@@ -1,6 +1,6 @@
-import { Box, Center, Heading, Text, Link } from '@chakra-ui/react'
+import { Box, Center, Heading, Text, Link, Flex } from '@chakra-ui/react'
+import Image from 'next/image'
 
-import Card from '../components/Card'
 import IntroSection from '../components/IntroSection'
 import PrimaryCTA from '../components/PrimaryCTA'
 import Layout from '../layouts/Layout'
@@ -18,14 +18,14 @@ const Index = () => {
                     </Heading>
 
                     <Text
-                        fontSize={['xl', null, null, 'xl']}
+                        fontSize={['md', null, 'lg', 'xl']}
                         fontWeight="normal"
                         maxW="xl"
                     >
                         {description}
                     </Text>
 
-                    <PrimaryCTA w={['unset']} />
+                    <PrimaryCTA w="unset" />
                 </Center>
 
                 <Box maxW="4xl" mt="20" mx="auto">
@@ -41,11 +41,15 @@ const Index = () => {
                         content={
                             <Text>
                                 Together, we maximize our positive impact for a
-                                sustainable future. By building interesting
-                                projects, we grow our skills and meet new
-                                friends, but most importantly, we empower more
-                                people to explore opportunities in the impact
-                                tech industry.
+                                sustainable future. By collaborating on
+                                interesting projects, we improve our skills and
+                                meet new friends, but most importantly, we
+                                empower more people to explore opportunities in
+                                the impact tech industry.
+                                {/* &nbsp; By collaborating on interesting projects, we
+                                improve our skills and meet new friends. More
+                                importantly, we empower more people to explore
+                                opportunities in the impact tech industry. */}
                             </Text>
                         }
                     />
@@ -69,10 +73,10 @@ const Index = () => {
                                 >
                                     open source licenses
                                 </Link>
-                                , both to simplify collaboration, invite new
-                                contributors - and most importantly to maximize
-                                our positive impact by enabling others to build
-                                upon what we've created.
+                                . This helps us simplify collaboration, invite
+                                new contributors - and most importantly, to
+                                maximize our positive impact by enabling others
+                                to build upon what we've created.
                             </Text>
                         }
                     />
@@ -89,7 +93,7 @@ const Index = () => {
                                 <Text>
                                     Come as you are, learn together and work on
                                     inspiring projects. Find a mentor to support
-                                    your journey into impact tech - and pay it
+                                    your journey into impact tech, and pay it
                                     forward by becoming a mentor yourself.
                                     Network, learn and grow.
                                 </Text>
@@ -104,31 +108,64 @@ const Index = () => {
                             alt:
                                 'Man brainstorming, thinking and organizing new ideas',
                         }}
-                        heading="Flexibility"
+                        heading="Weekly Community Calls"
                         content={
                             <Text>
-                                Join our regular community calls and collaborate
-                                as much as you'd like, when you like to. We
-                                value open communication and supporting each
-                                other to find a personally sustainable
-                                engagement for a sustainable future.
+                                Join our weekly calls to explore and collaborate
+                                on creative projects - or just drop in to chat!
+                                Find your own learning path and make regular
+                                progress by working together.
                             </Text>
                         }
                     />
 
-                    <Card textAlign="center" mx={[0, 6, 'auto']} maxW="md">
+                    {/* <Card
+                        textAlign="center"
+                        // mx={[0, 4, 'auto']}
+                        mx="auto"
+                        maxW={['md', null, 'lg']}
+                    >
                         <Heading
                             as="h2"
-                            fontSize={[20, null, 24]}
+                            fontSize={['md', null, 'lg']}
                             textAlign="center"
                         >
-                            Let's co-create a sustainable future!
+                            The community you've been looking for!
                         </Heading>
 
                         <Center>
                             <PrimaryCTA mt="4" />
                         </Center>
-                    </Card>
+                    </Card> */}
+
+                    <Flex
+                        textAlign="center"
+                        mx="auto"
+                        maxW={['md', null, 'lg']}
+                        justifyContent="center"
+                        flexDirection="column"
+                    >
+                        <Box h="70px" w="100%" position="relative" mx="auto">
+                            <Image
+                                src="/images/hackforfuture-logo-white-1350x225.png"
+                                alt={`${siteName} logo`}
+                                loading="eager"
+                                priority
+                                layout="fill"
+                                objectFit="contain"
+                            />
+                        </Box>
+
+                        <Text
+                            fontSize={['md', null, 'lg', 'xl']}
+                            my="2"
+                            fontWeight="400"
+                        >
+                            The community you've been looking for!
+                        </Text>
+
+                        <PrimaryCTA mt="4" alignSelf="center" />
+                    </Flex>
                 </Box>
 
                 <Divider />

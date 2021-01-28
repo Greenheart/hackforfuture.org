@@ -7,6 +7,7 @@ import Partners from '../components/Partners'
 import Image from 'next/image'
 
 import { siteName } from '../shared/constants'
+import Divider from '../components/Divider'
 
 const About = () => (
     <Layout maxW="xl" fontSize={[16, null, 20]}>
@@ -35,7 +36,9 @@ const About = () => (
             </NextLink>
         </Center>
 
-        <Partners pt="20" />
+        <Divider my="8" />
+
+        <Partners />
     </Layout>
 )
 
