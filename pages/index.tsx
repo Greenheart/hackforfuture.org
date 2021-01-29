@@ -46,10 +46,6 @@ const Index = () => {
                                 meet new friends, but most importantly, we
                                 empower more people to explore opportunities in
                                 the impact tech industry.
-                                {/* &nbsp; By collaborating on interesting projects, we
-                                improve our skills and meet new friends. More
-                                importantly, we empower more people to explore
-                                opportunities in the impact tech industry. */}
                             </Text>
                         }
                     />
@@ -118,25 +114,6 @@ const Index = () => {
                             </Text>
                         }
                     />
-
-                    {/* <Card
-                        textAlign="center"
-                        // mx={[0, 4, 'auto']}
-                        mx="auto"
-                        maxW={['md', null, 'lg']}
-                    >
-                        <Heading
-                            as="h2"
-                            fontSize={['md', null, 'lg']}
-                            textAlign="center"
-                        >
-                            The community you've been looking for!
-                        </Heading>
-
-                        <Center>
-                            <PrimaryCTA mt="4" />
-                        </Center>
-                    </Card> */}
 
                     <Flex
                         textAlign="center"
