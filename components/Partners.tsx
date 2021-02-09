@@ -20,15 +20,14 @@ export interface PartnersProps extends BoxProps {}
 
 const Partners: FC<PartnersProps> = (props) => {
     return partners.length ? (
-        <Box {...props}>
+        <Box maxW="md" mx="auto" {...props}>
             <Heading textAlign="center" mb="8">
                 Our partners
             </Heading>
             <Grid
                 mx="auto"
-                gridTemplateColumns="repeat(auto-fill, minmax(min(250px, 100%), 1fr))"
+                gridTemplateColumns="repeat(auto-fill, minmax(min(260px, 100%), 1fr))"
                 gap="6"
-                justifyContent="center"
                 mb="8"
             >
                 {partners.map((p, index) => (

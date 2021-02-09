@@ -147,9 +147,7 @@ const Index = () => {
 
                 <Divider />
 
-                <Box maxW="2xl" mx="auto">
-                    <Partners />
-                </Box>
+                <Partners />
             </Layout>
         </>
     )

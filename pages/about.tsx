@@ -12,7 +12,7 @@ import Divider from '../components/Divider'
 const About = () => (
     <Layout maxW="xl" fontSize={[16, null, 20]}>
         <Heading>About us</Heading>
-        <Center>
+        <Center mb="8">
             <Image
                 src="/images/undraw_real_time_collaboration_c62i.svg"
                 alt={`${siteName} logo`}
@@ -30,7 +30,7 @@ const About = () => (
         </Center>
         <Center>
             <NextLink href="/" passHref>
-                <Link variant="white" py="4">
+                <Link variant="white" my="2" p="2">
                     Learn more
                 </Link>
             </NextLink>
