@@ -15,11 +15,11 @@ const Footer: FC<FlexProps> = (props) => (
     >
         &copy; {new Date().getFullYear()} {siteName}
         <Flex>
-            <NextLink href="/about" passHref>
+            {/* <NextLink href="/about" passHref>
                 <Link variant="yellow" py="4" px="3">
                     About
                 </Link>
-            </NextLink>
+            </NextLink> */}
             <NextLink href={`mailto:${email}`} passHref>
                 <Link variant="yellow" py="4" px="3">
                     Contact

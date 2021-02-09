@@ -40,7 +40,7 @@ const Header = () => (
         </NextLink>
 
         <Flex as="nav" fontWeight="bold" justifyContent="flex-start">
-            <NavLink href="/about">About</NavLink>
+            {/* <NavLink href="/about">About</NavLink> */}
             <NavLink href={'mailto:' + email}>Contact</NavLink>
         </Flex>
     </Container>
