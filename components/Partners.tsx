@@ -14,6 +14,11 @@ const partners: Partner[] = [
         link: 'https://wedonthavetime.org?utm_source=hackforfuture.org',
         logo: '/images/wedonthavetime-2-line-rgb.png',
     },
+    {
+        name: '46elks',
+        link: 'https://46elks.com?utm_source=hackforfuture.org',
+        logo: '/images/46elks-logo-blue.png',
+    },
 ]
 
 export interface PartnersProps extends BoxProps {}
