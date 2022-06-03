@@ -16,7 +16,7 @@ const PrimaryCTA: FC<ButtonProps> = ({ ...props }) => (
             w={['100%', 'unset']}
             {...props}
         >
-            Request Invite
+            Join us on Element
         </Button>
     </NextLink>
 )
